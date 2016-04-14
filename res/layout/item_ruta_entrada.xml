@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/contTipoRuta"
+        android:layout_width="77dp"
+        android:layout_height="46dp"
+        android:background="#4aa3df"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imageViewRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_ruta" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHoraRuta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="7:00am"
+        android:textColor="#8e8e8e"
+        android:textSize="23sp" />
+
+</LinearLayout>

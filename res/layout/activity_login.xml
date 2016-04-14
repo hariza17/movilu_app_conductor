@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:singleLine="true"
+        android:text="@string/label_numero_movil"
+        android:textColor="#838282" />
+
+    <EditText
+        android:id="@+id/txtNroMovil"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/input_movilu_normal"
+        android:enabled="true"
+        android:focusable="true"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:text="@string/label_contrasena_usuario"
+        android:textColor="#838282" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/input_movilu_normal"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/label_entrar"
+        android:background="@drawable/boton_movilu_normal"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">movilú-conductor</string>
+    <string name="label_numero_movil">Nro. Movíl</string>
+    <string name="label_entrar">Entrar</string>
+    <string name="label_contrasena_usuario">Contraseña</string>
+    <string name="title_activity_recorrido">RecorridoActivity</string>
+    <string name="action_settings">Salir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lista_recorrido">ListaRecorridoActivity</string>
+    <string name="title_activity_map">Map</string>
+    <string name="ServerUrl">http://192.168.1.6:3000</string>
+
+</resources>
